@@ -1,0 +1,24 @@
+{
+  "group": "stickcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "stickcraft:fire_stick",
+    "count": 1
+  }
+}

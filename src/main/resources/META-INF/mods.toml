@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="stickcraft"
+version="Alpha 1"
+displayName="StickCraft"
+credits="A StickMod"
+displayURL="https://github.com/BlocBlocTheBloc/StickCraft.git"
+authors="BlocBlocTheBloc"
+
+[[dependencies.stickcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

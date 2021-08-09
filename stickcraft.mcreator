@@ -1,0 +1,114 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "StickCraft",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_craft"
+    },
+    {
+      "name": "FireStickAttack",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_stick_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FireStick"
+    },
+    {
+      "name": "FireStickDEF",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_stick_def",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FireStick"
+    },
+    {
+      "name": "FireStick",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_stick",
+      "path": "~/FireStick"
+    },
+    {
+      "name": "FireStickCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_stick_craft",
+      "path": "~/FireStick"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.stickcraft.fire_stick": "Fire Stick",
+      "itemGroup.tabstick_craft": "Stick Craft"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "FireStick",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "stickcraft",
+    "modName": "StickCraft",
+    "version": "Alpha 1",
+    "author": "BlocBlocTheBloc",
+    "websiteURL": "https://github.com/BlocBlocTheBloc/StickCraft.git",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "A StickMod",
+    "modElementsPackage": "fr.blocbloctheblocdev.stickcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
